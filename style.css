@@ -45,3 +45,36 @@ p {
 #addpart, #subtractpart, #dividepart, #multiplypart {
     display: none;
 }
+
+@media screen and (max-width: 378px) {
+    input {
+        border: none;
+        padding: 0.5rem 2.5rem;
+ 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    input {
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    th {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    th {
+        font-size: 2.9rem !important;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    th {
+        font-size: 2rem !important;
+    }
+}
