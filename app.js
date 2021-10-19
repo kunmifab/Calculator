@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
 // for multiplication
-function myCal() {
+multiplyBoth = () => {
     let calculate;
     let content1 = (document.getElementById("number1").value);
     let content2 = (document.getElementById("number2").value);
